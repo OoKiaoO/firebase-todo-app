@@ -2,7 +2,16 @@ html, body {
   margin: 0;
   padding: 0;
   font-family: 'Rubik', sans-serif;
-  background-color: #EEF0F4;
+  background-color: #ECECEC;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  margin: 10% auto;
+  max-width: 320px;
+  /* by adding the max width prop at 320px all devices will be able to show it no prob (universal width) */
 }
 
 input {
@@ -14,3 +23,19 @@ button {
   color: #FDFDFD;
   background-color: #AC485A;
 }
+
+img {
+  width: 200px;
+  margin: 0 auto;
+}
+
+button, input {
+  height: 50px;
+  font-size: 20px;
+  margin: 10px 0;
+  border: none;
+  text-align: center;
+  border-radius: 5px;
+  font-family: 'Rubik', sans-serif;
+}
+
